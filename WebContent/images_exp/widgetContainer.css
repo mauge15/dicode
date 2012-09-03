@@ -1,0 +1,42 @@
+@CHARSET "ISO-8859-1";
+
+.ppPanelGlass {
+	background-color: #000000;
+	height: 100%;
+	opacity: 0.8;
+	position: fixed;
+	visibility: hidden;
+	display:none;
+	width: 100%;
+	display: none;
+	left:0;
+	top:0;
+}
+
+.dialogBoxPopUp {
+	background-color: #FFFFFF;
+	width: 500px;
+	height: 500px;
+	left:500px;
+	margin: auto;
+	position: absolute;
+	top:50px;
+	visibility: hidden;
+	display:none;
+}
+
+.loadPanelGlass {
+	background-color: #000000;
+	background-image: url("loading.gif");
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	height: 100%;
+	opacity: 0.8;
+	position: fixed;
+	visibility: visible;
+	display: block;
+	width: 100%;
+	display: block;
+	left:0;
+	top:0;
+}
