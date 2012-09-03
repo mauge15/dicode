@@ -1,31 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <URL>
 	<path>
-		<!--<context>http://hill.dia.fi.upm.es:8081/dicode</context>-->
-		<context>http://hodgkin.dia.fi.upm.es:8080/dicode</context>
+		<context>http://domain.com</context>
 	</path>
 	<location>		
-		<URI>http://hodgkin.dia.fi.upm.es</URI>
+		<URI>http://domain.com</URI>
 		<port>8080</port>
-		<package>DICODE-REST</package>
+		<package>package</package>
 	</location>
 	<userREST>
-		<user>dicode</user>
-		<pass>dicode</pass>
+		<user>user</user>
+		<pass>pass</pass>
 	</userREST>
 	<mail>
-		<host>infomed.dia.fi.upm.es</host>
-		<from>dicode@infomed.dia.fi.upm.es</from>
+		<host>domain</host>
+		<from>email@domain.com</from>
 		<port>25</port>
-		<username>dicode</username>
-		<pass>dicodegib0</pass>
+		<username>username</username>
+		<pass>password</pass>
 	</mail>
 	<copeit>
-		<username>sysadmin</username>
-		<pass>sys_dic_pass</pass>
+		<username>username</username>
+		<pass>password</pass>
 	</copeit>
 	<userREST>
-               <user>dicode</user>
-               <pass>dicode</pass>
+               <user>username</user>
+               <pass>password</pass>
        </userREST>
 </URL>
